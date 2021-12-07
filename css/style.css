@@ -1,0 +1,270 @@
+/* GLOBAL */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans',sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1160px;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* MAIN CONTENT */
+.main-content {
+  flex-grow: 1;
+}
+
+/* HEADER */
+.site-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.site-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* SITE LOGO */
+.site-logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.site-logo-img {
+  margin-right: 16px;
+}
+
+.site-logo-text {
+  font-weight: 600;
+  font-size: 24px;
+  color: #222;
+}
+
+.site-logo-text:hover {
+  color: #de2e54;
+}
+
+.site-logo-text:active {
+  opacity: 0.8;
+}
+
+.sitenav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sitenav-item:not(:last-child) {
+  margin-right: 32px;
+}
+
+.sitenav-link {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 2px;
+  color: #222;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.sitenav-link:hover {
+  color: #de2e54;
+}
+
+.sitenav-link:active {
+  opacity: 0.8;
+}
+
+.main-button {
+  text-decoration: none;
+  background-color: #de2e54;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: 'Open Sans Condenced';  
+  border: 2px solid;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.main-button :hover {
+  color: #de2e54;
+  background-color: #fff;
+}
+
+.main-button :active {
+  opacity: 0.6;
+  background-color: #de2e54;
+  color: #fff;
+  border-color: transparent;
+}
+
+/* MAIN */
+.hero {
+  background-color: #0eb4c1;
+  color:#fff;
+}
+
+.hero-content-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content {
+  width: 500px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.hero-header {
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43px;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.hero-text {
+  line-height: 27px;
+  font-size: 18px;
+  margin-bottom: 36px;
+}
+
+.hero-button {
+  color: #fff;
+}
+
+.hero-button:hover {
+  background-color: rgba(222, 46, 84, 0.8);
+  color:#fff;
+  border-color: transparent;
+}
+
+.hero-button:active {
+  background-color: rgba(222, 46, 84, 0.6);
+  color:#fff;
+  border-color: transparent;
+}
+
+.hero-img {
+  align-self: flex-end;
+}
+
+
+/* SERVICE */
+.index-services {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
+
+.index-services-header {
+  text-align: center;
+  color: #000;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43;
+  margin-bottom: 56px;
+}
+
+.index-services-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 864px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+}
+
+.index-services-item:not(:last-child) {
+  margin-bottom: 80px;
+}
+
+.index-service {
+  display: flex;
+}
+
+.index-service-img {
+  margin-right: 64px;
+  box-shadow: 0px 12px 24px -8px rgba(0, 107, 116, 0,3);
+  border-radius: 24px;
+}
+
+.index-service-title {
+  font-weight: 700;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+
+.index-service-description {
+  margin: 0;
+}
+
+.index-service-action {
+  display: flex;
+  justify-content: center;
+}
+
+
+/* FOOTER */
+.site-footer{
+  background-color: #222;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.site-footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-footer-logo-text {
+  color:#fff;
+}
+
+.site-footer-logo-text:active {
+  color: #fff;
+}
+
+.sitenav-footer-link {
+  color: #fff;
+}
+
+.sitenav-footer-link:active {
+  color: #fff;
+  opacity: 0.8;
+}
