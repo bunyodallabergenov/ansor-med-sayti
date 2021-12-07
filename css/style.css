@@ -239,6 +239,37 @@ body {
 }
 
 
+/* RECIEVED */
+.recieved-section {
+  background-color: #0EB4C1;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+
+.recieved-title {
+  color:#fff;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.recieved-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Open Sans Condensed',sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  border: 2px solid #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+}
+
+.recieved-link:not(:last-child) {
+  margin-right: 40px;
+}
+
+
+
 /* FOOTER */
 .site-footer{
   background-color: #222;
