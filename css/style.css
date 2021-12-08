@@ -253,6 +253,12 @@ body {
   margin-bottom: 80px;
 }
 
+.recieved-link-list {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
 .recieved-link {
   color: #fff;
   text-decoration: none;
@@ -264,7 +270,7 @@ body {
   border-radius: 8px;
 }
 
-.recieved-link:not(:last-child) {
+.recieved-item:not(:last-child) {
   margin-right: 40px;
 }
 
